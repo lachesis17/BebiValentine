@@ -22,16 +22,16 @@ body, html {
     position: relative;
 }
 
-#slide1 { background-color: #FFD2D2; }
-#slide2 { background-color: #D2F8E4; }
-#slide3 { background-color: #EAD1FF; }
-#slide4 { background-color: #FFFACD; }
-#slide5 { background-color: #F4A8A8; }
-#slide6 { background-color: #AFEEEE; }
-#slide7 { background-color: #e6b0db; }
-#slide8 { background-color: #f4e59c; }
-#slide9 { background-color: #98FB98; }
-#slide10 { background-color: #CDA4DE; }
+#slide1 { background-color: #dc143cb8; }
+#slide2 { background-color: #FFB6C1; }
+#slide3 { background-color: #ff69b4b9; }
+#slide4 { background-color: #DB7093; }
+#slide5 { background-color: #FFE4E1; }
+#slide6 { background-color: #ff1491a3; }
+#slide7 { background-color: #c720ca77; }
+#slide8 { background-color: #ff006677; }
+#slide9 { background-color: #fe9baa; }
+#slide10 { background-color: rgba(198, 30, 97, 0.875); }
 
 .slide.active {
     opacity: 1;
@@ -55,5 +55,17 @@ body, html {
     .slide-text {
         font-size: 20px;
         padding: 60px;
+    }
+}
+
+.slide-text img {
+    max-width: 90%;
+    height: auto;
+    margin: 20px 0;
+}
+
+@media (max-width: 600px) {
+    .slide-text img {
+        max-width: 90%;
     }
 }
